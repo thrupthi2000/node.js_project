@@ -4,7 +4,7 @@
   "description": "A simple Node.js project with Webpack",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack --config webpack.config.js",
+    "build": "npx webpack --config webpack.config.js",
     "start": "webpack serve --open"
   },
   "author": "",
