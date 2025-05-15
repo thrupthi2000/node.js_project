@@ -4,8 +4,8 @@
   "description": "A simple Node.js project with Webpack",
   "main": "index.js",
   "scripts": {
-    "build": "npx webpack --config webpack.config.js",
-    "start": "webpack serve --open"
+    "build":"webpack",
+    "start":"webpack serve"
   },
   "author": "",
   "license": "ISC",
